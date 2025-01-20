@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    printf("Hello Git@_@\n");
+    char text[] = "Hello Git @_@";
+    printf("%s\n",text);
     return 0;
 }
